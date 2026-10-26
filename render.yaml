@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: investlab-multiplayer
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
